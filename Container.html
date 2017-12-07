@@ -1,11 +1,46 @@
 <html>
     <head>
-        <title>Container Class</title>
-    <meta viewport="">
-    
+        <title>Learning Bootstrap</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-sacale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <style>
+            .container, .container-fluid{
+                background-color: black;
+                color:white;
+            }
+        </style>
     </head>
     <body>
-        
+        <div class="container">
+            <h1>Container class</h1>
+        </div>
+        <div class="container-fluid">
+            <h1>Container-fluid class</h1>
+        </div>
+        <div class="container">
+            <div class="container" style="background-color:red">
+                <h1>Container in Container</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container-fluid" style="background-color:red">
+                <h1>Container in Container-fluid</h1>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container" style="background-color:red">
+                <h1>Container-fluid in Container</h1>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container-fluid" style="background-color:red">
+                <h1>Container-fluid in Container-fluid</h1>
+            </div>
+        </div>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/tether/dist/css/tether.min.css"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
 </html>
-
