@@ -1,0 +1,204 @@
+<html>
+    <head>
+        <title>Learning Bootstrap</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <style>
+            .OurProjectRow{
+                padding: 50px;
+            }
+            .OurProjectParent{
+                border: 1px solid black;
+                border-radius: 10px;
+            }
+            
+            .OurProjectParent:hover div{
+               height: 250px;
+            }
+            .OurProjectChild{
+                position: absolute;
+                display: block;
+                z-index: 1000;
+                overflow-x: hidden;
+                overflow-y: scroll;
+                height: 00px;
+                top:90%;
+                transition: 0.5s ease-out;
+                left:0%;
+                background-color: blanchedalmond;
+                border-radius: 10px;
+                width: 255px;
+            }
+            .ourProjectChild h6{
+                cursor: pointer;
+            }
+            .OurProjectChild::-webkit-scrollbar {
+                width: 1px;
+            }
+            .OurProjectChild::-webkit-scrollbar-track {
+                background-color: rgb(255, 255, 255);
+                -webkit-border-radius: 1px;
+            }
+            .OurProjectChild::-webkit-scrollbar-thumb:vertical {
+                background-color: rgb(142, 142, 142);
+                -webkit-border-radius: 100%;
+                -webkit-width:5px;
+            }
+            .OurProjectChild h6:hover {
+                background-color: rgba(255,255,255,0.8);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container text-center">
+            <div class="row OurProjectRow">
+                <div class="col-12 col-sm-3 OurProjectParent ">
+                    <h5>Top Most</h5>
+                    <div class="OurProjectChild">
+                        <h6>ISRO (Ahmedabad)</h6>
+                        <h6>A.M.T.S</h6>
+                        <h6>Hotel-Le Meridien (Ahmedabad) </h6>
+                        <h6>Guj.ST</h6>
+                        <h6>Pandit Deendayal petroleum university (Gandhinagar) </h6>
+                        <h6>kankariya lake</h6>
+                        <h6>Indian Plasma resear    ch (Ahmedabad) </h6>
+                        <h6>Sabarmati riverfront</h6>
+                        <h6>Anandji kalyanji trust (Palitana) </h6>
+                        <h6>Pavapuri jain temple (Rajasthan)</h6>
+                        <h6>Reliance Petroleum Refinery (Jamnagar) </h6>
+                        <h6>N J Devani Builders</h6>
+                        <h6>Indian institute of management (Ahmedabad) </h6>
+                        <h6>K.P. Sanghvi Group</h6>
+                        <h6>Saurashtra patel Kelavani mandal </h6>
+                        <h6>Girivar Group</h6>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-12 offset-sm-1 col-sm-3 OurProjectParent">
+                    <h5>Vastrapur-Setelite-Bodakdev</h5>
+                    <div class="OurProjectChild">
+                        <h6> PRESTIGE TOWER</h6>
+                        <h6> SARDAR TOWER</h6>
+                        <h6> PLATINUM TOWER</h6>
+                        <h6> PRESIDENT TOWER</h6>
+                        <h6> ASHRAY TOWER</h6>
+                        <h6> PUSHKAR TOWER</h6>
+                        <h6> PRATHISTHA</h6>
+                        <h6> PRAYAG TOWER</h6>
+                        <h6> PUSHPVAN</h6>
+                        <h6>  PAGEONE</h6>
+                        <h6>  AKSHARDHAM APARTMENT</h6>
+                        <h6>  AKSHARJYOT</h6>
+                        <h6>  AKSHAR DEEP</h6>
+                        <h6>  AKSHARDHARA</h6>
+                        <h6>  SHIVAM RECIDANCY</h6>
+                        <h6>  MAURDHYNA APARTMENT</h6>
+                        <h6> PRIMET</h6>
+                        <h6> PUSP BUNGALOW</h6>
+
+                    </div>
+                </div>
+                <div class="col-12 offset-sm-1 col-sm-3 OurProjectParent">
+                    <h5>Narol</h5>
+                    <div class="OurProjectChild">
+                        <h6>  KARNAWATI-1,2,3</h6>
+                        <h6>  VIVEKANAND GARMENT CAMPUS</h6>
+                        <h6>  OMKAR HILL</h6>
+                        <h6>  NILKHANT GREEN</h6>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row OurProjectRow">
+                <div class="col-12 col-sm-3 OurProjectParent">
+                    <h5>Ring Road</h5>
+                    <div class="OurProjectChild">
+                        <h6> GRAND VISHALA</h6>
+                        <h6> GIRIVER PRIDE</h6>
+                        <h6> BARCELONA</h6>
+                        <h6> VISHALA EAST</h6>
+                        <h6> VISHALA WEST</h6>
+                        <h6> VISHALA LANDMARK</h6>
+
+                    </div>
+                </div>
+                <div class="col-12 offset-sm-1 col-sm-3 OurProjectParent">
+                    <h5>Motera</h5>
+                    <div class="OurProjectChild">
+                        <h6>RATNAM RECIDANCY</h6>
+                        <h6>RATNMAM GARNET</h6>
+                        <h6>RATNAM CORAL</h6>
+                        <h6>SHRADHA RECIDANCY</h6>
+                        
+                    </div>
+                </div>
+                <div class="col-12 offset-sm-1 col-sm-3 OurProjectParent">
+                    <h5>Bapunagar</h5>
+                    <div class="OurProjectChild">
+                        <h6> SHYAM SHIKHAR</h6>
+                        <h6> SUKH SAGAR COMPLAX</h6>
+                        <h6> KAKADIYA HOSPITAL</h6>
+                        <h6> PRATHNA</h6>
+                        <h6> SHREEJI VIDHYALA</h6>
+                        <h6> SARWODAY VIDHYALA</h6>
+                        <h6> PUSHPAK</h6>
+                        <h6> RUDRAX HOSPITAL</h6>
+                        <h6> PUSHKAR HILL</h6>
+                       <h6> PUSHPRAJ INDUSTRIAL HUB &times; ARCADE</h6>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row OurProjectRow">
+                <div class="col-12 col-sm-3 OurProjectParent">
+                    <h5>Nikol</h5>
+                    <div class="OurProjectChild">
+                        <h6>MALBAR HILL</h6>
+                        <h6>SWARNIM VILLA</h6>
+                        <h6>SHIVAM PRIORY</h6>
+                        <h6>ITIHAS RECIDANCY</h6>
+                        <h6>PUSHKAR BUNGALOW</h6>
+                        <h6>PARTH RECEDANCY</h6>
+                    </div>
+                </div>
+                <div class="col-12 offset-sm-1 col-sm-3 OurProjectParent">
+                    <h5>Naroda</h5>
+                    <div class="OurProjectChild">
+                        <h6> SATKAR BUNGALOW</h6>
+                        <h6>  PUSHPAK BUNGALOW</h6>
+                        <h6>  SATKAR AVENU</h6>
+                        <h6>  SATKAT STATUS</h6>
+
+                    </div>
+                </div>
+                <div class="col-12 offset-sm-1 col-sm-3 OurProjectParent">
+                    <h5>Vastral</h5>
+                    <div class="OurProjectChild">
+                        <h6>    GIRIVAR PALM</h6>
+                        <h6>    OMKAR RECIDANCY</h6>
+                        <h6>    RAJDHANI BUNGALOW</h6>
+                        <h6>    LUV KUSH HEIGHTS</h6>
+                        <h6>    OMKAR HEIGHTS</h6>
+                        <h6>    PUSP RECIDENCY</h6>
+                        <h6>    PUSP BUSINESS CAMPUS</h6>
+                        <h6>    PUSHP VILLA</h6>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/tether/dist/css/tether.min.css"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
